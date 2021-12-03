@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+ background-color:darkblue;
+}
+h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 200;
+    }
+h1{
+    font-size: 40px;
+    font-family:inherit;
+    font-weight: 200;
+}
+img{ height: 300px;
+    width: 300px;
+    transition: transform 0.2s;
+    }
+h2{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 250;
+}
+img:hover{
+  transform: scale(0.9);
+    }
+.line{
+ width: 700px;
+    height: 4px;
+    background-color:#000;
+    margin: 8px auto;
+    }
